@@ -1,0 +1,53 @@
+h1,
+h2 {
+    color: #bde4a8;
+    font-family: 'arial';
+    font-size: 2em
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(17, 151, 44, 0.1)), url("../images/background3.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+a:hover {
+    color: #676f54;
+}
+
+#pics {
+    border: 5px solid #676f54;
+}
+
+.ourstory {
+    border: 5px solid #9cc69b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.imagedesign {
+    border-width: 15px;
+    border-color: #9cc69b;
+
+}
+
+#welcome {
+    color: #79b4a9;
+    font-size: 5em;
+    font-style: oblique;
+}
+
+#topics {
+    border: 15px solid #9cc69b;
+    border-color: #9cc69b;
+    border-width: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main nav ul li {
+    color: #676F54;
+    font-size: 5em;
+    font-style: oblique;
+}
