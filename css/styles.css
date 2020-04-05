@@ -2,7 +2,15 @@ h1,
 h2 {
     color: #bde4a8;
     font-family: 'arial';
-    font-size: 2em
+    font-style: oblique;
+    font-size: 2em;
+}
+
+nav h4 {
+    color: #79b4a9;
+    font-family: 'arial';
+    font-style: oblique;
+    font-size: 1.5em;
 }
 
 body {
@@ -27,18 +35,21 @@ a:hover {
 }
 
 .imagedesign {
-    border-width: 15px;
-    border-color: #9cc69b;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #welcome {
     color: #79b4a9;
-    font-size: 5em;
+    font-size: 4em;
     font-style: oblique;
 }
 
 #topics {
+    color: #79b4a9;
+    font-family: 'arial';
+    font-size: 2em;
+    font-style: oblique;
     border: 15px solid #9cc69b;
     border-color: #9cc69b;
     border-width: medium;
@@ -46,8 +57,26 @@ a:hover {
     padding-bottom: 15px;
 }
 
-main nav ul li {
-    color: #676F54;
-    font-size: 5em;
+main div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    font-family: 'arial';
     font-style: oblique;
+    font-size: 1.2em;
+    background-color: #9cc69b;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 50rem) {
+
+    Header,
+    Main,
+    Footer,
+    Form p {
+        Flex-direction: column;
+    }
 }
